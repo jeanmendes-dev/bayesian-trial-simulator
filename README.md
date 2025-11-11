@@ -1,6 +1,6 @@
 # Bayesian Clinical Trial Simulator
 
-[![R-CMD-check](https://github.com/rforbio/bayesian-trial-simulator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/rforbio/bayesian-trial-simulator/actions)
+[![R-CMD-check](https://github.com/jeanmendes-dev/bayesian-trial-simulator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jeanmendes-dev/bayesian-trial-simulator/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > A lightweight, transparent R framework for simulating **Bayesian adaptive clinical trials** with sequential posterior updating and early stopping rules — designed for statisticians, clinical teams, and biotech decision-makers.
@@ -40,7 +40,6 @@ Bayesian adaptive trials offer:
 | **Extensible** | Add models (Weibull, hierarchical), priors (empirical, weakly informative), allocation (Thompson sampling) |
 
 ---
-
 ## ▶️ Quick Example
 
 Simulate a Phase II oncology trial (binary endpoint: objective response rate):
@@ -62,3 +61,17 @@ trial <- simulate_bayesian_trial(
 
 print(trial)
 plot_trial_evolution(trial)
+
+---
+```
+---
+
+## 📊 Final posteriors: Control ~ Beta(15,27), Treatment ~ Beta(21,21) 
+
+![Posterior Distribution](final_posterior_distributions.png)
+
+
+### Sensitivity Analysis — Impact of Clearance
+![Análise de Gravidade](analise-sensibilidade-clearance-oral.png)
+
+---
