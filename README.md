@@ -1,6 +1,6 @@
 # Bayesian Clinical Trial Simulator
 
-[![R-CMD-check](https://github.com/jeanmendes-dev/bayesian-trial-simulator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jeanmendes-dev/bayesian-trial-simulator/actions)
+![R](https://img.shields.io/badge/R-4.4+-276DC3?logo=r)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 > A lightweight, transparent R framework for simulating **Bayesian adaptive clinical trials** with sequential posterior updating and early stopping rules — designed for statisticians, clinical teams, and biotech decision-makers.
