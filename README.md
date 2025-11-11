@@ -64,14 +64,22 @@ plot_trial_evolution(trial)
 
 ---
 ```
+Bayesian Adaptive Trial Simulation:
+
+```r
+- True rates: Control = 30% | Treatment = 50%
+- Stopping rules: Efficacy > 90% | Futility < 10%
+
+📈 Trial Progress:
+ cohort total_n y_control y_treatment prob_treat_better       decision
+      8      80        14          20            0.9162 Stop: Efficacy
+
+---
+```
 ---
 
 ## 📊 Final posteriors: Control ~ Beta(15,27), Treatment ~ Beta(21,21) 
 
 ![Posterior Distribution](final_posterior_distributions.png)
-
-
-### Sensitivity Analysis — Impact of Clearance
-![Análise de Gravidade](analise-sensibilidade-clearance-oral.png)
 
 ---
